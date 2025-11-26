@@ -10,7 +10,6 @@ const Blog = () => {
         <h1 className='text-white text-2xl font-bold mb-8'>BLOG</h1>
 
         <div className='flex flex-wrap justify-center gap-6'>
-          {/* Card 1 */}
           <div className='bg-white w-full sm:w-[300px] h-auto rounded-lg overflow-hidden shadow-lg'>
             <img src={Img1} alt='Image' className='w-full h-48 object-cover' />
             <div className='p-4'>
@@ -21,9 +20,7 @@ const Blog = () => {
               </p>
             </div>
           </div>
-
-          {/* Card 2 */}
-          <div className='bg-white w-full sm:w-[300px] h-auto rounded-lg overflow-hidden shadow-lg'>
+         <div className='bg-white w-full sm:w-[300px] h-auto rounded-lg overflow-hidden shadow-lg'>
             <img src={Img2} alt='Image' className='w-full h-48 object-cover' />
             <div className='p-4'>
               <h1 className='font-bold text-lg text-[#b21858] mb-1'>Best haircut for 2024 female</h1>
@@ -33,8 +30,6 @@ const Blog = () => {
               </p>
             </div>
           </div>
-
-          {/* Card 3 */}
           <div className='bg-white w-full sm:w-[300px] h-auto rounded-lg overflow-hidden shadow-lg'>
             <img src={Img3} alt='Image' className='w-full h-48 object-cover' />
             <div className='p-4'>

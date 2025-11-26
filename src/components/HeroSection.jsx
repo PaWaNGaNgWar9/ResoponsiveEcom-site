@@ -64,7 +64,7 @@ export default function HeroSection() {
 
             >
               Search
-              <FaSearch className="text-sm" />
+              <FaSearch className="text-sm pl-1" />
             </button>
           </div>
         </div>
@@ -73,3 +73,4 @@ export default function HeroSection() {
     </section>
   );
 }
+
